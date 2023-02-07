@@ -309,11 +309,21 @@ colorLinks.addEventListener("click", (event) => {
   event.preventDefault();
 
   const selectedColor = event.target.style.backgroundColor;
-  const imgUrl = "newAssets/shutterstock_208186996t4.png";
+  const imgUrl = [
+    "newAssets/shutterstock_208186996t4.png",
+    "newAssets/shutterstock_208186996t.png",
+    "newAssets/shutterstock_208186996t4t.png",
+  ];
   console.log(selectedColor);
 
   if (selectedColor === "rgb(255, 115, 0)") {
-    image.setAttribute("src", imgUrl);
+    image.setAttribute("src", imgUrl[1]);
+  }
+  if (selectedColor === "rgb(3, 72, 201)") {
+    image.setAttribute("src", imgUrl[0]);
+  }
+  if (selectedColor === "rgb(121, 121, 121)") {
+    image.setAttribute("src", imgUrl[2]);
   }
 });
 
