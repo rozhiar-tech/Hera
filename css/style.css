@@ -1229,6 +1229,7 @@ header .is-sticky .sticky .user-basket .dropdown-menu {
   border-left: 1px solid #d1d5db;
   display: inline-block;
   width: 100%;
+  background-color: #793f3b;
 }
 .arrival-block .item {
   position: relative;
@@ -3465,7 +3466,7 @@ header .is-sticky .sticky .user-basket .dropdown-menu {
 footer p {
   font-size: 12px;
   line-height: 26px;
-  color: #999999;
+  color: #fff;
 }
 footer h6 {
   color: #fff;
@@ -3477,7 +3478,7 @@ footer h6 {
 footer {
   padding: 120px 0;
   padding-bottom: 60px;
-  background: #171e27;
+  background: #a43d38;
   position: relative;
   z-index: 1;
 }
@@ -4429,4 +4430,8 @@ main {
 
 .instagram :hover {
   background: #ffe115 !important;
+}
+
+.arival-color{
+  background-color: #793f3b !important;
 }
