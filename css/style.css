@@ -492,7 +492,7 @@ header .navbar li a:before {
   left: 0px;
   top: 45%;
   z-index: -1;
-  background: #ffe115;
+  background: #a43d38;
   -webkit-transition: 0.2s ease-in-out;
   -moz-transition: 0.2s ease-in-out;
   -ms-transition: 0.2s ease-in-out;
@@ -511,7 +511,7 @@ header .navbar li.active a:before {
   top: 45%;
   left: 0px;
   z-index: -1;
-  background: #ffe115;
+  background: #a43d38;
   -webkit-transition: 0.2s ease-in-out;
   -moz-transition: 0.2s ease-in-out;
   -ms-transition: 0.2s ease-in-out;
