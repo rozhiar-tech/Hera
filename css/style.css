@@ -1238,9 +1238,9 @@ header .is-sticky .sticky .user-basket .dropdown-menu {
   overflow: hidden;
   border-right: 1px solid #d1d5db;
   border-bottom: 1px solid #d1d5db;
+  background: white;
 }
 .arrival-block .overlay {
-  background: rgba(255, 255, 21, 0.75);
   position: absolute;
   height: 100%;
   width: 100%;
@@ -3267,6 +3267,8 @@ header .is-sticky .sticky .user-basket .dropdown-menu {
 .testimonial .testi-in {
   text-align: right;
   position: relative;
+  width: 100%;
+  height: 100%;
 }
 .testimonial .testi-in i {
   position: absolute;
@@ -4433,13 +4435,31 @@ main {
   background: #ffe115 !important;
 }
 
-.arival-color{
+.arival-color {
   background-color: #793f3b !important;
 }
 
-@media  only screen and (max-width : 300px){
-
-  img-footer{
+@media only screen and (max-width: 300px) {
+  img-footer {
     width: 100px !important;
   }
+}
+
+.newSlider {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+}
+
+.newSlider img {
+  width: 700px;
+  height: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
 }
